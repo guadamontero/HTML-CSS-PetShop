@@ -10,7 +10,6 @@
 .header-top {
   background-color: #222222;
   color: #F3F3F3;
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 13px;
 }
@@ -21,33 +20,28 @@
 
 .header-bottom h1 {
   color: black;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
 .header-bottom span {
   color: white;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
 .header-bottom li, a {
   text-decoration: none;
   color: #FFFFFF;
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 
 /*-----------------MAIN-----------------*/
 .section-banner {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 
 .section-banner-boton a {
   color: #FFFFFF;
   background-color: #F0A83E;
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 
@@ -58,7 +52,6 @@
 }
 
 .section-productos {
-  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
@@ -102,7 +95,6 @@ div{
   background-color: #222222;
   text-align: center;
   color: #F3F3F3;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
