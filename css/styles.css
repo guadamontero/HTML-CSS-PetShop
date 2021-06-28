@@ -41,6 +41,12 @@ li {
   padding: 1.5em;
 }
 
+.logo {
+  display: flex;
+  align-content: center;
+  gap:0.1em;
+}
+
 .header-bottom h1 {
   color: black;
   font-weight: 700;
