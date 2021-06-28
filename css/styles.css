@@ -168,7 +168,7 @@ header ul {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .footer-top p {
@@ -183,17 +183,17 @@ h3 {
 .contacto {
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 1.5em;
 }
 
 .contacto-item {
   display: flex;
   align-items: flex-start;
-  gap: 2em;
+  gap: 1.5em;
 }
 
 .icono {
-  font-size: 2.5em;
+  font-size: 2em;
   color: #F3F3F3;
 }
 
@@ -203,9 +203,9 @@ h3 {
   justify-content: center;
   background-color: #8a8787;
   border-radius: 50%;
-  border: 0.3em solid #786960;
-  height: 5em;
-  width: 5em;
+  border: 0.2em solid #786960;
+  height: 4em;
+  width: 4em;
 }
 
 .footer-bottom {
