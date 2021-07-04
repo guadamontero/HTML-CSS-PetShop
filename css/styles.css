@@ -69,9 +69,10 @@ header ul {
   font-weight: 400;
 }
 
-.destacados {
-  display: flex;
-  justify-content: space-around;
+.menu-hamburguesa {
+  color: #f3f3f3;
+  font-size: 2em;
+  display: none;
 }
 
 /*-----------------MAIN-----------------*/
@@ -87,6 +88,7 @@ header ul {
   justify-content: center;
   align-items: flex-end;
   flex-direction: column;
+  padding: 0 2rem;
 }
 
 .heroe-container {
@@ -112,7 +114,7 @@ header ul {
   text-align: center;
   font-size: 20px;
   padding: 10px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .heroe-boton {
@@ -273,12 +275,20 @@ h3 {
     display: none;
   }
 
+  .menu-hamburguesa {
+    display: inline;
+  }
+
+  .heroe-container h4 {
+    font-weight: 600;
+  }
+
   .heroe-container h4 a {
     align-items: flex-end;
   }
 
   .section-heroe {
-    background-position: 0%;
+    background-position: 5%;
   }
 
   .productos-titulo h2{
