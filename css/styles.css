@@ -96,7 +96,6 @@ header ul {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-around;
   flex-wrap: nowrap;
   align-content: flex-start;
   gap: 0.5em;
@@ -165,9 +164,9 @@ header ul {
 .card-container {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   gap: 1em;
   padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -253,7 +252,7 @@ h3 {
 
 /* --------CELULAR-------- */
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 690px) {
 
   header, main, footer{
     width: 100vw;
@@ -325,7 +324,7 @@ h3 {
 @media screen and (max-width: 480px) {
 
   header, main, footer{
-    width: 120vw;
+    width: 100vw;
   }
 
   .header-top {
@@ -340,12 +339,18 @@ h3 {
     display: none;
   }
 
-  .heroe-container h4 a {
+  .heroe-container h4{
     align-items: flex-end;
+    color: #f3f3f3;
+  }
+
+  .heroe-container h2 {
+    font-weight: 500;
+    font-size: 1.9em;
   }
 
   .section-heroe {
-    background-position: 0%;
+    background-position: 5%;
   }
 
   .productos-titulo h2{
