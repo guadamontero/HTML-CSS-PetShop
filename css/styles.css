@@ -59,6 +59,13 @@ li {
   font-weight: 700;
 }
 
+.ul-nav li::before {
+  content: "\f1b0";
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+  font-weight: 900;
+}
+
 header ul {
   display: flex;
   gap: 10px;
@@ -169,6 +176,11 @@ header ul {
   flex-wrap: wrap;
 }
 
+.card:hover {
+  border: #222222 solid 1px;
+  box-shadow: 0.5em 0.5em rgba(240, 168, 62, 0.5);
+}
+
 .card {
   background-color: #fbfaf6;
 }
@@ -202,8 +214,13 @@ form {
   gap: 1rem;
 }
 
+.nombre-form:focus, input[type="email"]:focus, input[type="tel"]:focus {
+  outline: none;
+  background-color: #8f7360;
+}
+
 .nombre-form, input[type="email"], input[type="tel"] {
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
   border: transparent;
   font-weight: 600;
   border-radius: 18px;
@@ -213,7 +230,7 @@ form {
 }
 
 .nombre-form::placeholder, input[type="email"]::placeholder, input[type="tel"]::placeholder {
-  color: #f3f3f3;
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 200;
   font-size: 1rem;
 }
@@ -229,6 +246,11 @@ label {
   display: flex;
   justify-content: center;
   gap: 1rem;
+}
+
+.resetear:hover, .enviar:hover {
+  box-shadow: 0 3px 3px rgb(0 0 0 / 20%);
+  font-weight: 700;
 }
 
 .resetear {
@@ -265,7 +287,7 @@ label {
   align-items: center;
   background-color: #F0A83E;
   color: #f3f3f3;
-  padding: 1rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .suscribite {
